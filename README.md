@@ -1,4 +1,8 @@
-# devops-netology
-Первое изменение
+В файле terraform/.gitignore заданы правила, чтобы Git не отслеживал временные и служебные файлы Terraform.
 
-Игнорируются .terraform каталог .terraform.lock.hcl файлы состояния terraform.tfstate и их резервные копии
+* Символ * обозначает любое количество любых символов.  
+* .terraform/ — игнорируется весь каталог .terraform и его содержимое.  
+* *.tfstate и *.tfstate.backup — игнорируются все файлы, в имени которых есть .tfstate.  
+* .terraform.lock.hcl — игнорируется файл блокировок.  
+* crash.log — игнорируются все файлы с именем crash.log.  
+
